@@ -1,0 +1,47 @@
+/**header**/
+h1{
+    font-size: 100px;
+    color:#000066;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:20px;
+    font-family:'ZCOOL QingKe HuangYou', cursive; }
+
+.sub-header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;}
+
+/**Column**/
+.equal-height-container{
+    max-width: 1000px;
+    height:400px;
+    margin:2% auto;
+    display:flex;
+}
+
+
+.left-col{
+    background-color:lightgoldenrodyellow;
+    padding:20px;
+    flex:1;
+    
+}
+.right-col{
+    background-color:lightgray;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+   
+}
+
+.first_box{
+    background-color:lightcyan;
+    flex:1;
+}
+
+.second_box{
+    background-color:lightpink;
+    flex:1;
+}

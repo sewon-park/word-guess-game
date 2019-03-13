@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+
+    <!-- add css link-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- add js link-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <container>
+            <h1>Hangman <img src="assets/images/avengers_logo.jpg"></h1>
+        </container>
+    </header>
+
+    <div class="sub-header">Guess the name of heroes or villians in Marvel Cinematic Universe</div>
+    
+    <div class="equal-height-container">
+        <div class="left-col">
+        <!--insert images based on the guess word:avengers characters-->
+            <img id="result_img" src="assets/images/stanlee.jpg">        
+        </div>
+
+    
+    
+        <div class="right-col">
+            <div class="first_box">
+                <div id="play">Press button to get started</div>
+                <button type="button" id="start">Start!</button>
+            </br>
+                <div id="win">Wins</div>
+                <div id="winCount"></div>
+            </br>
+                <div id="word">Current Word</div>
+                <div id="guessword"></div>
+                <!--letter appends as user guesses the right letters-->
+
+            </div>
+            <div class="second_box">
+                <div id="remaining_guesses"># of guesses remaining:</div>
+                <!--target number -= -->
+                <div id="Letters already guessed">letters already guessed:</div>
+                <!--append letters that user has clicked so far-->
+            </div>  
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
