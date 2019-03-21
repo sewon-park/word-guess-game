@@ -70,7 +70,7 @@ function checkLetters (letter) {
     if (rightLetter) {
         for (var j = 0; j < numBlanks; j++) {
             if (chosenWord[j] === letter) {
-                underscore[j] === letter;
+                underscore[j] = letter;
             }
         }
     console.log(underscore);
